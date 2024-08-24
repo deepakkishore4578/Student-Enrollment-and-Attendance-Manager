@@ -1,11 +1,11 @@
 # Student-Enrollment-and-Attendance-Manager
 
-Project Overview
+#Project Overview
   The Student Management System (SMS) is a software application designed to manage and track the progress of students in various 
   academic courses. It facilitates the enrollment of students into courses, tracks the completion of lectures, manages attendance, 
    and provides detailed reports on students' progress and course requirements.
 
-"Key Features :-" 
+# Key Features 
 Student Enrollment: Add new students to the system with a unique roll number.
 Course Enrollment: Enroll students in multiple courses, each with a specified number of total lectures.
 Lecture Management: Mark lectures as finished and attended for each course.
@@ -13,11 +13,11 @@ Attendance Tracking: Calculate and display the number of additional lectures nee
 Information Reporting: Print detailed reports on students' progress, including lectures finished, attended, and required for meeting attendance goals.
 
 
-"Classes and Their Responsibilities"
+# Classes and Their Responsibilities
 Course
 The Course class represents an academic course and provides functionality to track lecture progress and attendance:
 
-Attributes:
+# Attributes:
 
 totalLectures: Total number of lectures for the course.
 lecturesFinished: Number of lectures completed.
@@ -31,7 +31,7 @@ getLecturesNeededToAttend() const: Computes the number of additional lectures th
 Student
 The Student class manages individual students, their courses, and their progress:
 
-Attributes:
+# Attributes:
 
 rollNumber: Unique identifier for the student.
 courses: A map of course names to Course objects, representing the student's enrolled courses.
@@ -44,7 +44,7 @@ printInfo() const: Outputs detailed information about the student's courses and 
 StudentSystem
 The StudentSystem class manages a collection of students and provides functionality to add and retrieve students:
 
-Attributes:
+# Attributes:
 
 students: A map of roll numbers to Student objects.
 Methods:
